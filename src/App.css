@@ -1,0 +1,87 @@
+.buttn {
+  
+  background-color: rgb(0, 89, 255);
+  position: relative;
+  animation-name: example;
+  
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  
+  from {
+      left: 0px;
+    }
+  
+    to {
+      left: 100px;
+    }
+  }
+    .buttn1 {
+  
+      background-color: red;
+      position: relative;
+      animation-name: example1;
+  
+      animation-duration: 2s;
+    }
+  
+    @keyframes example1 {
+  
+      from {
+        right: 0px;
+      }
+  
+      to {
+        right: 100px;
+      }
+    }
+
+.head{
+  text-shadow: 5px 9px 9px black;
+}
+.tilt-card {
+  transition: transform 0.3s ease;
+}
+
+ .tilt-card:onClick {
+   transform: rotatex(15deg) scale(1.05);
+ }
+
+ .tilt-card:active {
+   transform: rotatey(-30deg) scale(1.95);
+ }
+ .head:hover {
+
+  
+   position: relative;
+   animation-name: example12;
+  
+   animation-duration: 2s;
+ }
+
+ @keyframes example12 {
+
+   from {
+     right: 0px;
+   }
+
+   to {
+     right: 100px;
+   }
+ }
+ section{
+      background-color: aquamarine;
+ }
+ .buttn:onClick{
+  animation-name: example3;
+ }
+ @keyframes example3 {
+  from{
+    width: 190px;
+  }
+  to{
+    width: 150px;
+    background-color:blue
+  }
+ }
